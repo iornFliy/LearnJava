@@ -1,10 +1,5 @@
 package com.learn.concurrent;
 
-import jdk.nashorn.internal.ir.WhileNode;
-import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
-
-import java.util.Date;
-
 /**
  * 在ktv中，服务员每隔一段时间就报时一次，但是等所有的包厢都没人了就停止报时
  * */
