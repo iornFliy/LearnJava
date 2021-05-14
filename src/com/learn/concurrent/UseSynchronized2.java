@@ -34,7 +34,7 @@ class Saler1 extends Thread{
             if (no > 0) {
                 System.out.println(this.name + ":" + no);
                 try {
-                    Thread.sleep(100);
+                    Thread.sleep(100);  //加sleep是为了引出同一张票多次售出的现象
                 }
                 catch (Exception e){}
 //                yield();

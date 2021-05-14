@@ -23,7 +23,7 @@ class Saler extends Thread {
                     System.out.println(this.name + ":"+ this.tickets);
                 }
                 try {
-                    Thread.sleep(100);
+                    Thread.sleep(100);   //加sleep是为了引出同一张票多次售出的现象
                 }
                 catch (Exception e){}
             }
